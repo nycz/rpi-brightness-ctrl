@@ -54,8 +54,7 @@ void change_brightness(int step) {
 }
 
 void usage() {
-    printf("usage: %s [-h] [+-] [+STEP | -STEP]\n\n  -h   show this message\n STEP  how much to change brightness",
-            program_name);
+    printf("usage: %s [-h] [+-] [+STEP | -STEP]\n\n  -h   show this message\n STEP  how much to change brightness\n", program_name);
 }
 
 int main(int argc, char *argv[]) {
